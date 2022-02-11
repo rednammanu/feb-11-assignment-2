@@ -1,0 +1,18 @@
+sno = int(input("enter number"))
+sname = str(input("enter name"))
+s1, s2, s3 = int(input("s1 marks")), int(input("s2 marks")), int(input("s3 marks"))
+s4, s5, s6 = int(input("s4 marks")), int(input("s5 marks")), int(input("s6 marks"))
+total = s1+s2+s3+s4+s5+s6
+avg = total/2
+if avg >=92:
+    print("o- grade")
+elif avg >=71:
+    print("b-grade")
+elif avg >=60:
+    print("c-grade")
+elif avg >=50:
+    print("d-grade")
+elif avg >=40:
+    print("pass")
+else:
+    print("fail")
